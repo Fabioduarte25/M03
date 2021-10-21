@@ -1,4 +1,4 @@
-package cat.itb.fabiocuevas7e5.DAM.m03.uf1.data.seleccio
+package cat.itb.fabiocuevas7e5.DAM.m03.uf1.data
 
 import java.util.*
 import kotlin.math.PI
