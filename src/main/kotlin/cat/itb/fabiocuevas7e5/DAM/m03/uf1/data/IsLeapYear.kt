@@ -1,7 +1,5 @@
 package cat.itb.fabiocuevas7e5.DAM.m03.uf1.data
 
-package cat.itb.fabiocuevas7e5.dam.m03.data
-
 import java.util.*
 
 fun main (){
