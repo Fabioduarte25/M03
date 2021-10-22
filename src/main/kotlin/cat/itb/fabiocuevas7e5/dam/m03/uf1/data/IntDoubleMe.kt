@@ -1,4 +1,4 @@
-package cat.itb.fabiocuevas7e5.dam.m03.uf1.data
+package cat.itb.fabiocuevas7e5.dam.data
 
 import java.util.*
 

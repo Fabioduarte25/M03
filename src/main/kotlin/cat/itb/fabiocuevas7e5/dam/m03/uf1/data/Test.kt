@@ -1,4 +1,4 @@
-package cat.itb.fabiocuevas7e5.dam.m03.uf1.data
+package cat.itb.fabiocuevas7e5.dam.data
 
 fun main(){
     val mainPackage = "cat.itb.fabiocuevas7e5.dam"
