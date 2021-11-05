@@ -13,3 +13,11 @@ fun main(){
         }
     }
 }
+/*
+val times = sc.nextInt()
+var letter:Char
+repeat(times){
+letter = sc.next().single()
+when (letter){
+'a', 'e', 'i', 'o', 'u' -> print ("$letter")
+ */
