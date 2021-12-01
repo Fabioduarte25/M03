@@ -13,5 +13,8 @@ fun average() {
     val howMany = sc.nextInt()
     val list = MutableList(size = howMany) { sc.nextInt() }
     val avg = list.sum() / howMany
+
+
+
     println(list.closestValue(avg))
 }
