@@ -11,7 +11,7 @@ fun average() {
 
     val sc = Scanner(System.`in`)
     val howMany = sc.nextInt()
-    val list = MutableList(size = howMany) { sc.nextInt() }
+    val list = MutableList(howMany) { sc.nextInt() }
     val avg = list.sum() / howMany
 
 

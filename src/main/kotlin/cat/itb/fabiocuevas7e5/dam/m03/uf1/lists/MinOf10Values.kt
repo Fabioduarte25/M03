@@ -6,5 +6,4 @@ fun main(){
     val valores = MutableList<Int>(10){scanner.nextInt()}
     valores.sort()
     println(valores.first())
-
 }
