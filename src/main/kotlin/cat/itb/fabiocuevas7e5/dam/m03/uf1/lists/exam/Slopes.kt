@@ -5,9 +5,15 @@ import java.util.*
 fun main(){
     val sc = Scanner(System.`in`)
     val howMany = sc.nextInt()
-    val list = MutableList(howMany){sc.nextInt()}
-    val newList = list.filter { it > 0 }
-    val suma = newList.sum()
-    println(suma)
+    val list = List(howMany){sc.nextInt()}
+    var puntsdeinflexio = 0
+    for(i in list){
+        if((i-1) < i && (i+1) < i){
+            puntsdeinflexio =+ 1}
 
+        if((i-1) > i && (i+1) > i) {
+            puntsdeinflexio =+ 1
+        }
+    }
+    println("Té $puntsdeinflexio canvis de pendents")
 }
